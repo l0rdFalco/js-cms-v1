@@ -1,23 +1,17 @@
 {
   "author": {
-    "name": "Howest"
+    "name": "xAvier"
   },
-  "name": "cody",
-  "description": "Cody CMS",
+  "name": "jscms",
+  "description": "JS CMS",
   "version": "4.0.15",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/jcoppieters/cody.git"
-  },
   "scripts": {
     "pre-publish": "echo 'Update version in package.json & npm i -> package-lock.json; git commit / publish; git tag vx.y.z;'",
-    "do-publish": "npm publish; git push; git push --tags",
-    "upublish": "npm unpublish cody@4.0.14"
+    "do-publish": "npm publish; git push; git push --tags"
   },
   "main": "./index",
   "keywords": [
-    "cody",
     "cms",
     "howest"
   ],
@@ -36,6 +30,5 @@
   "engines": {
     "node": "*"
   },
-  "readme": "Cody CMS\n\nFor documentation see: \n- https://github.com/jcoppieters/cody and/or \n- http://www.cody-cms.org\n\nContact us at johan.coppieters@howest.be\n\nThe Cody team.\n",
   "readmeFilename": "README.md"
 }
